@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/deals/refresh</url>
+    <description>Aktualisiere Daten von Deal-Seiten</description>
+    <schedule>every 20 minutes synchronized</schedule>
+    <timezone>Europe/Berlin</timezone>
+  </cron>
+  <cron>
+    <url>/deals/refresh?cleanup</url>
+    <description>Alte Daten löschen</description>
+    <schedule>every day 00:00</schedule>
+    <timezone>Europe/Berlin</timezone>
+  </cron>
+</cronentries>
